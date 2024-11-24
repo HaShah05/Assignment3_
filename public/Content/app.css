@@ -1,8 +1,8 @@
 
 h1 {
-
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200px;
+    color: #FFFFFF !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,7 @@ html, body {
 
 p{
     font-size: 20px;
+    color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
@@ -71,7 +72,7 @@ body {
 
 body {
     
-    background: linear-gradient(to bottom, black ,white); /* Soft blue gradient */
+    background: linear-gradient(to bottom, #004080, #121212); /* From blue to dark gray */
     margin: 0;
     height: 100%;
 }
