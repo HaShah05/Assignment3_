@@ -13,23 +13,22 @@
                 <tr class="d-flex">
                     <th class="text-center col-2">Date</th>
                     <th class="text-center col-2">Exercise</th>
-                    <th class="text-center col-1">Sets</th>
-                    <th class="text-center col-1">Reps</th>
+                    <th class="text-center col-2">Sets</th>
+                    <th class="text-center col-2">Reps</th>
                 </tr>
                 <% for(let count=0;count<WorkoutList.length;count++) { %>
                 <tr class="d-flex">
                     <td class="text-center col-2"><%= WorkoutList[count].Date %></td>
                     <td class="text-center col-2"><%= WorkoutList[count].Exercise %></td>
-                    <td class="text-center col-1"><%=WorkoutList[count].Sets%></td>
-                    <td class="text-center col-1"><%= WorkoutList[count].Reps %></td>
-                    <td class="text-center col-1">
+                    <td class="text-center col-2"><%=WorkoutList[count].Sets%></td>
+                    <td class="text-center col-2"><%= WorkoutList[count].Reps %></td>
                         <a href="/workoutslist/edit/<%= WorkoutList[count]._id%>"
                             class="btn btn-primary btn-sm">
                         <i class="fas fa-pencil-alt"></i>Edit
                     </a>
                     </td>
                     <td class="text-center col-1">
-                        <a href="/workouts/delete/<%= WorkoutList[count]._id%>"
+                        <a href="/workoutslist/delete/<%= WorkoutList[count]._id%>"
                             class="btn btn-danger btn-sm">
                         <i class="fas fa-trash-alt"></i>Delete
                     </a>
