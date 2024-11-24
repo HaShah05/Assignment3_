@@ -16,7 +16,7 @@ router.get('/',async(req,res,next)=>{
 try{
     const WorkoutList = await Workout.find();
     res.render('Workout/list',{
-        title:'Workouts',
+        title:'Workout Log',
         WorkoutList:WorkoutList
     })}
     catch(err){

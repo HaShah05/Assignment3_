@@ -1,5 +1,8 @@
 
 h1 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +11,68 @@ h1 {
 }
 
 .splash-image {
-    width: 300px;
-    height: 300px;
-    margin-top: 20px; /* Move the image down */
+    width: 400px;
+    height: 400px;
+    margin-top: 300px; /* Move the image down */
     margin-left: auto; /* Center horizontally */
     margin-right: auto; /* Center horizontally */
     display: block; /* Ensure the image is treated like a block-level element */
 }
 
+html, body {
+    background-color: #f0f0f0; /* Light gray */
+    margin: 0; /* Remove default margins */
+    height: 100%; /* Ensure the body covers the full page height */
+}
+
+
 p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+body {
+    background-color:darkcyan; /* Replace with your desired color */
+}
+
+.navbar {
+    height: 100px; /* Set a larger height */
+    padding: 1rem 1.5rem; /* Increase padding */
+}
+
+.navbar .navbar-brand {
+    font-size: 3rem; /* Increase the brand text size */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+.navbar .nav-link {
+    font-size: 2rem; /* Increase the link text size */
+}
+
+.nav-link i {
+    font-size: 2rem; /* Increase icon size */
+    margin-right: 0.5rem; /* Add space between the icon and text */
+}
+
+
+.btn {
+    padding: 5px 10px; /* Uniform padding for all buttons */
+    font-size: 0.875rem; /* Consistent font size */
+}
+
+
+body {
+    
+    background: linear-gradient(to bottom, black ,white); /* Soft blue gradient */
+    margin: 0;
+    height: 100%;
+}
+
