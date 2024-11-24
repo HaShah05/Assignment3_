@@ -1,0 +1,24 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.splash-image {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px; /* Move the image down */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    display: block; /* Ensure the image is treated like a block-level element */
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
